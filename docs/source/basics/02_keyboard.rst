@@ -16,7 +16,7 @@ From Japanese to English Keyboard
 .. figure:: assets/images/keyboard/japanese-keyboard-popup.png 
   :alt: Japanese keyboard popup menu
 
-  A popup menu should appear. Selecting 英語(米国) should immediately switch to the English keyboard.
+  A popup menu should appear. Selecting Alphabet should immediately switch to the English keyboard.
 
 .. figure:: assets/images/keyboard/english-keyboard.png 
   :alt: English keyboard
