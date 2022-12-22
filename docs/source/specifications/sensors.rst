@@ -11,7 +11,7 @@ Robot Sensors
 .. figure:: assets/sensors/sensors-02.jpg
   :alt: Robot front and rear views
 
-  Head sensors: (A1) Wide/narrow angle camera, (A2) RGB/ TOF Camera. 
+  Head sensors: (A1) Wide/narrow angle camera, (A2) RGB/ ToF Camera. 
 
 
 .. Important::
