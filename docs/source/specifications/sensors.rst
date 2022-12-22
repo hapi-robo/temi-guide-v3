@@ -5,13 +5,13 @@ Robot Sensors
 .. figure:: assets/sensors/sensors-01.jpg
   :alt: Robot front and rear views
 
-  Robot sensors: (A) Head sensors (see below for details), (B) ground depth sensor, (C) front ToF sensors, (D) rear ToF sensors, (E) LIDAR.
+  Robot sensors: (A) Head sensors (see below for details), (B) ground depth sensor, (C) front ToF sensors, (D) cliff sensors, (E) rear ToF sensors, (F) LIDAR.
  
 
 .. figure:: assets/sensors/sensors-02.jpg
   :alt: Robot front and rear views
 
-  Head sensors: (A1) head depth sensor, (A2) narrow-angle camera, (A3) wide-angle camera, (A4) RGB camera. 
+  Head sensors: (A1) Wide/narrow angle camera, (A2) RGB/ TOF Camera. 
 
 
 .. Important::
