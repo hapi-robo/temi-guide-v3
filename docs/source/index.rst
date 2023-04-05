@@ -74,7 +74,7 @@ This guide provides some examples of using `temi's SDK <https://github.com/robot
    technician/01_android_logs
    technician/02_slam_bags
    technician/03_custom_commands
-   technician/06_boot_commands
+   technician/04_boot_commands
    technician/05_key_commands
 
 .. Indices and tables
