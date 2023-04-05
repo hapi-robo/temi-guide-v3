@@ -5,13 +5,13 @@ Robot Sensors
 .. figure:: assets/sensors/sensors-01.jpg
   :alt: Robot front and rear views
 
-  Robot sensors: (A) Head sensors (see below for details), (B) ground depth sensor, (C) front ToF sensors, (D) cliff sensors, (E) rear ToF sensors, (F) LIDAR.
+  Robot sensors: (A) head depth camera (see below for details), (B) ground depth camera, (C) front ToF sensors, (D) cliff sensors, (E) rear ToF sensors, (F) LIDAR.
  
 
 .. figure:: assets/sensors/sensors-02.jpg
   :alt: Robot front and rear views
 
-  Head sensors: (A1) Wide/narrow angle camera, (A2) RGB/ ToF Camera. 
+  Head sensors: (A1) Wide angle camera, (A2) head depth camera. 
 
 
 .. Important::
@@ -20,22 +20,16 @@ Robot Sensors
 .. As with all optical sensors, environmental lighting, as well as surface reflection, transmission, and absorption affect what the sensors are able to detect. In turn, these can affect navigation performance.
 
 
-Cameras
+Camera
 =======
-The two cameras located in the robot's head can be used by apps for taking photos and/or videos. They are not used for navigation.
+The wide-angle cameras located on the robot's head can be used by apps for taking photos and/or videos as well as for video calls. They are not used for navigation.
 
 +---------------------+------+------+
 |                     | HFOV | VFOV |
 +=====================+======+======+
-| Narrow-angle camera | 60°  | 48°  |
-+---------------------+------+------+
-| Wide-angle camera   | 95°  | 60°  |
+| Wide-angle camera   | 120°  | 48°  |
 +---------------------+------+------+
 
-
-RGB Camera
-==========
-This is a camera that is dedicated to tracking people. Blocking this camera will prevent the robot from following.
 
 
 LIDAR
@@ -45,22 +39,23 @@ The primary navigation sensor is the laser, imaging, detection, and ranging (`LI
 .. @TODO Multiple versions of the LIDAR
 
 
-Depth Sensors
+Depth Cameras
 =============
 The robot has 2 depth cameras. One that is embedded into the head, and one just above the LIDAR:
 
-- **Head Depth Sensor**: This is used to assist with tracking people.  
-- **Ground Depth Sensor**: This is used to detect obstacles directly in front of the robot on the floor.
+- **Head Depth Camera**: This is used for face recognition in conjunction with the wide-angle camera and for tracking people. Blocking this camera will prevent the robot from following.  
+- **Ground Depth Camera**: This is used to detect obstacles directly in front of the robot on the floor. It is also used to detect *cliffs*, e.g. stairs, escalators, genkan, etc. in medium range.
 
-
+.. Tip:: The robot is unable to detect obstacles shorter than 10cm.
 .. @TODO Multiple versions of the Depth Camera
 
 
 ToF Sensors
 ===========
-The robot has two sets of Time-of-Flight (ToF) sensors. Three in the front pointing upwards, and three in the rear (under the tray) pointing downwards:
+The robot has three sets of Time-of-Flight (ToF) sensors. Three in the front pointing upwards, three in the rear (under the tray) pointing downwards and two located in front (bottom protrusions):
 
 - **Front ToF Sensors**: These are used to detects obstacles, such as tables directly in front of the robot.
 - **Rear ToF Sensors**: These are used to detect *cliffs*, e.g. stairs, escalators, genkan, etc. directly behind the robot when moving backwards.
+- **Cliff ToF Sensors**: These are used to detect *cliffs* exclusively, e.g. stairs, escalators, genkan, etc. in close range.
 
 .. Tip:: Do not rely on the depth cameras or the ToF sensors. They do not work reliably. We recommend reducing their use (e.g. lower the obstacle avoidance sensitivity or turn them off completely), and to use virtual walls in the map.
