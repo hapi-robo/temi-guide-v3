@@ -4,7 +4,7 @@ USB
 
 Hardware
 ========
-The temi Robot v2 CE is equipped with a USB Host port (5V/900mA, 4.5W).
+The temi Robot v3 CE is equipped with a USB Host port (5V/900mA, 4.5W).
 
 
 USB Host Ports
@@ -26,4 +26,4 @@ FAQ
 
 `Q: Can I use a USB camera and/or microphone with temi's video calling app?`
 
-  No. temi's current set of applications, including video calling app, do not support USB cameras or microphones.
+  Yes, it is possible to use a USB camera but not a microphone with temi's video calling app. In the case of a webcam with built-in microphone, double tapping the video call screen on either temi app or temi center will cause the streamed video to alternate between the tablet's camera and the webcam. However, all audio will still be streamed from the tablet's built-in microphone.  
