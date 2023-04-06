@@ -32,4 +32,4 @@ References
 ----------
 Available from temi's `Helpdesk <https://www.robotemi.com/helpdesk/>`_.
 
-:download:`temi User Manual (2020/11) <assets/docs/temi_user_manual_20230202.pdf>`
+:download:`temi User Manual (2023/02) <assets/docs/temi_user_manual_20230202.pdf>`
