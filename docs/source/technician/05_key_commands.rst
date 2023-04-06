@@ -1,3 +1,5 @@
+.. _key-commands-descriptions:
+
 ************
 Key Commands
 ************
