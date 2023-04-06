@@ -12,9 +12,9 @@ Profiles
 The following is a list of supported Bluetooth profiles on temi Robot v1/v2 using Firmware version 20201216.xxxxxx.
 temi Robot v3 uses Firmware version 20221014.xxxxxx.
 
-:download:`V1 & V2 Bluetooth Profiles (2021/10/12) <assets/v1_v2_temi_bluetooth_profiles_20211012.csv>`
+:download:`V1 & V2 Bluetooth Profiles (2021/10/12) <assets/docs/v1_v2_temi_bluetooth_profiles_20211012.csv>`
 
-:download:`V3 Bluetooth Profiles (2022/11/22) <assets/v3_temi_bluetooth_profiles_20221122.pdf>`
+:download:`V3 Bluetooth Profiles (2022/11/22) <assets/docs/v3_temi_bluetooth_profiles_20221122.pdf>`
 
 
 Master vs. Slave
