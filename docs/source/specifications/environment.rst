@@ -17,7 +17,7 @@ Storage Conditions
 
 References
 ----------
-:download:`temi S1 CE Technical Specifications (2021/10) <assets/docs/temi_s1_ce_technical_specifications_v11_20211027.pdf>`
+:download:`temi S1 CE Technical Specifications (2021/10) <assets/temi_s1_ce_technical_specifications_v11_20211027.pdf>`
 
 Operating Conditions
 ====================
@@ -32,4 +32,4 @@ References
 ----------
 Available from temi's `Helpdesk <https://www.robotemi.com/helpdesk/>`_.
 
-:download:`temi User Manual (2023/02) <assets/docs/temi_user_manual_20230202.pdf>`
+:download:`temi User Manual (2023/02) <assets/temi_user_manual_20230202.pdf>`
