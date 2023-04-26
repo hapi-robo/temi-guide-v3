@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'temi V3 Guide'
-copyright = '2022, hapi-robo s.t., Inc.'
+copyright = '2023, hapi-robo s.t., Inc.'
 author = 'hapi-robo s.t., Inc.'
 
 # The full version, including alpha/beta/rc tags
