@@ -79,7 +79,7 @@ This guide provides some examples of using `temi's SDK <https://github.com/robot
 
 .. toctree::
    :maxdepth: 1
-   :caption: Technician1
+   :caption: Technician
 
    technician/01_android_logs
    technician/02_slam_bags
