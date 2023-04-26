@@ -79,13 +79,9 @@ This guide provides some examples of using `temi's SDK <https://github.com/robot
 
 .. toctree::
    :maxdepth: 1
-   :caption: Technician
+   :caption: Test
 
-   technician/01_android_logs
-   technician/02_slam_bags
-   technician/03_custom_commands
-   technician/04_boot_commands
-   technician/05_key_commands
+   test/01_test_button
 
 .. Indices and tables
 .. ==================
